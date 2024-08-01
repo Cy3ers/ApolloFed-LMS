@@ -1,0 +1,30 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^2.8.4",
+    "@apollo/server": "^4.10.5",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "graphql": "^16.9.0",
+    "graphql-middleware": "^6.1.35",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  }
+}
