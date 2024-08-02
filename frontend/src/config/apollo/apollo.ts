@@ -13,7 +13,7 @@ const httpLink = createHttpLink({
 
 const wsLink = new GraphQLWsLink(
   createClient({
-    url: ws_url ?? "ws://localhost:5000/graphql",
+    url: ws_url ?? "ws://localhost:4000/graphql",
     // shouldRetry: () => true,
     // retryAttempts: 5,
     shouldRetry: () => true, //retry on connection problem

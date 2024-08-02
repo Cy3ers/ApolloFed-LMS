@@ -1,4 +1,5 @@
 import { FallbackProps } from "react-error-boundary";
+import React from "react";
 
 export function RenderError(props: FallbackProps) {
   const { error, resetErrorBoundary } = props;
